@@ -36,4 +36,4 @@ jobs:
       - name: Deploy to GitHub Pages
         if: ${{ !env.ACT && github.ref == 'refs/heads/main' }}
         id: deployment
-        uses: actions/deploy-pages@4
+        uses: actions/deploy-pages@v4
